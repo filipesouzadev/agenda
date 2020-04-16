@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+  <link rel="stylesheet" href="agenda.css">
+</head>
+<body>
+  
+  <form class="pure-form pure-form-aligned">
+    <fieldset>
+      <legend>Agenda</legend>
+
+      <div class="pure-control-group">
+        <label for="name">Nome</label>
+        <input class="" id="name" type="text" placeholder="Nome">
+        <span class="pure-form-message-inline">Este campo é obrigatório.</span>
+      </div>
+
+      <div class="pure-control-group">
+        <label for="email">Email</label>
+        <input class="" id="email" type="text" placeholder="email@provedor.com.br">
+        <span class="pure-form-message-inline">Este campo é obrigatório.</span>
+      </div>
+
+      <div class="pure-control-group">
+        <label for="phone">Telefone</label>
+        <input class="" id="phone" type="text" placeholder="(00) 0000-0000">
+        <span class="pure-form-message-inline">Este campo é obrigatório.</span>
+      </div>
+
+      <div class="pure-controls">
+        <button type="submit" class="pure-button pure-button-primary btnAdd">Adicionar</button>
+      </div>
+    </fieldset>
+  </form>
+  
+  <hr>
+  
+  <table class="pure-table ">
+      <thead>
+          <tr>
+              <th>#</th>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Telefone</th>
+              <th>Ações</th>
+          </tr>
+      </thead>
+
+      <tbody class="table-contacts">
+          <tr>
+            <td colspan="5">Não existem dados registrados!</td>
+          </tr>
+      </tbody>
+  </table>
+
+  <script src="agenda.js"></script>
+</body>
+</html>

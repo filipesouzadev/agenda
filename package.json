@@ -1,0 +1,22 @@
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "Curso Caelum JavaScript ",
+  "main": "agenda.js",
+  "scripts": {
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 7000"
+  },
+  "keywords": [
+    "js",
+    "caelum",
+    "es6",
+    "filipesouzadev"
+  ],
+  "author": "Filipe Bizerra de Souza",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.16.1",
+    "lite-server": "^2.5.4"
+  }
+}
